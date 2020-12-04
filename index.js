@@ -5,4 +5,6 @@
     await require('./02/two')();
     await require('./03/one')();
     await require('./03/two')();
+    await require('./04/one')();
+    await require('./04/two')();
 })();

@@ -46,7 +46,7 @@ function makePassport(data, validation = false) {
 }
 
 function fieldsCheck(fields) {
-    const fieldsString = Object.keys(fields).sort().join()
+    const fieldsString = Object.keys(fields).sort().join();
     return  [requiredFieldsString, allFieldsString].indexOf(fieldsString) > -1;
 }
 

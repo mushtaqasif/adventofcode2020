@@ -17,7 +17,7 @@ module.exports = async function() {
     const answer = trees.reduce((total, count) => total * count);
 
 
-    console.log('Trees encountred:', trees);
+    console.log('Trees encountered:', trees);
     console.log('Answer:', answer);
 
     console.timeEnd("Execution time");

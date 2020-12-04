@@ -1,7 +1,7 @@
 const { displayTitle, getData } = require('../lib');
 
 module.exports = async function() {
-    console.time("Excution time");
+    console.time("Execution time");
 
     displayTitle(1, 2);
 
@@ -31,5 +31,5 @@ module.exports = async function() {
     }
 
     console.log(collection);
-    console.timeEnd("Excution time");
+    console.timeEnd("Execution time");
 };

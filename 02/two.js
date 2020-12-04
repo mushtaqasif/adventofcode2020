@@ -1,7 +1,7 @@
 const { displayTitle, getData } = require('../lib');
 
 module.exports = async function() {
-    console.time("Excution time");
+    console.time("Execution time");
 
     displayTitle(2, 2);
 
@@ -27,5 +27,5 @@ module.exports = async function() {
     });
 
     console.log('Valid passwords:', valid);
-    console.timeEnd("Excution time");
+    console.timeEnd("Execution time");
 };

@@ -2,7 +2,7 @@ const { displayTitle, getData } = require('../lib');
 const traverse = require('./traverse');
 
 module.exports = async function() {
-    console.time("Excution time");
+    console.time("Execution time");
 
     displayTitle(3, 2);
 
@@ -20,5 +20,5 @@ module.exports = async function() {
     console.log('Trees encountred:', trees);
     console.log('Answer:', answer);
 
-    console.timeEnd("Excution time");
+    console.timeEnd("Execution time");
 };

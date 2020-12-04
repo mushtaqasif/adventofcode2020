@@ -2,7 +2,7 @@ const { displayTitle, getData } = require('../lib');
 const passportGenerator = require('./passport-generator');
 
 module.exports = async function() {
-    console.time("Excution time");
+    console.time("Execution time");
 
     displayTitle(4, 1);
 
@@ -22,5 +22,5 @@ module.exports = async function() {
 
     console.log('Valid passports:', count);
 
-    console.timeEnd("Excution time");
+    console.timeEnd("Execution time");
 };

@@ -58,13 +58,12 @@ function fieldsValueCheck(fields) {
         && validateHeight(fields)
         && validateHairColor(fields)
         && validateEyeColor(fields)
-        &&  validatePassportId(fields)
+        && validatePassportId(fields)
     ;
 }
 
 function isFourDigit(value) {
-    const data = value.trim();
-    return !isNaN(data) && data.length == 4;
+    return /^\d{4}$/.test(value);
 }
 
 function isBetween(value ,min, max) {

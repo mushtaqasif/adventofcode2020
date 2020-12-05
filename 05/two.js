@@ -4,7 +4,7 @@ const seatCodeToId = require('./seat-code-to-id');
 module.exports = async function() {
     console.time("Execution time");
 
-    displayTitle(5, 1);
+    displayTitle(5, 2);
 
     const codes = await getData(__dirname, 'data.txt');
 

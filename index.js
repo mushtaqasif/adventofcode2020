@@ -9,4 +9,8 @@
     await require('./04/two')();
     await require('./05/one')();
     await require('./05/two')();
+    await require('./06/one')();
+    await require('./06/two')();
+    await require('./07/one')();
+    // await require('./06/two')();
 })();

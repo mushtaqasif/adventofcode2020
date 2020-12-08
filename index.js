@@ -13,4 +13,6 @@
     await require('./06/two')();
     await require('./07/one')();
     await require('./07/two')();
+    await require('./08/one')();
+    await require('./08/two')();
 })();

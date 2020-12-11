@@ -17,4 +17,6 @@
     await require('./08/two')();
     await require('./09/one')();
     await require('./09/two')();
+    await require('./10/one')();
+    await require('./10/two')();
 })();
